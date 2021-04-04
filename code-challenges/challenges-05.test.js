@@ -34,7 +34,6 @@ const sortStarWarsCharacters = (starWarsArr) => {
       return -1;
     } else return 0;
   });
-  console.log(starWarsArr)
   return starWarsArr;
 }
 
