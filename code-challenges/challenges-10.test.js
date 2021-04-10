@@ -100,7 +100,7 @@ const divisibleByFiveTwoToThePower = (input) => {
     })
     localArray.push(insideArray);
   })
-  return b;
+  return localArray;
 };
 
 /* ------------------------------------------------------------------------------------------------
