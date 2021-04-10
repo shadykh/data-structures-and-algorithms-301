@@ -89,17 +89,18 @@ For example, [ [0,2,5,4], [2,4,10], [] ] should return [ [1, 32], [1024], [] ].
 
 const divisibleByFiveTwoToThePower = (input) => {
   // Solution code here...
+  let localArray = [];
   input.forEach(element => {
+    let insideArray = [];
     element.forEach((val, idx) => {
-      if (typeof val !== 'number' || val % 5 !== 0) {
-        element.splice(idx, 1);
-
-      } else {
-        element.splice(idx, 1, 2 ** val);
+      if (typeof val === 'number' && val % 5 === 0) {
+        console.log(val, 'n', idx);
+        insideArray.push(2 ** val);
       }
     })
+    localArray.push(insideArray);
   })
-  return input;
+  return b;
 };
 
 /* ------------------------------------------------------------------------------------------------
