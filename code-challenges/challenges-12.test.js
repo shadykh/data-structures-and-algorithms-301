@@ -15,7 +15,7 @@ const maxInArray = (arr) => {
   }, 0);
   return maximum;
 };
-console.log();
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
@@ -104,7 +104,7 @@ const grandTotal = (stores) => {
   }
   return totalSum;
 };
-console.log(grandTotal(cookieStores));
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
